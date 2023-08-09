@@ -1,0 +1,18 @@
+{
+  "name": "googleadsintegration",
+  "version": "1.0.0",
+  "description": "test task ",
+  "main": "app.js",
+  "type":"module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mironovisa",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "google-ads-api": "^13.0.1",
+    "nodemon": "^3.0.1"
+  }
+}
