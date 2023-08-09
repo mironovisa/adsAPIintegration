@@ -45,8 +45,9 @@ These instructions will help you set up and run the Google Ads Campaign Cost Ret
 
 The Google Ads Campaign Cost Retriever provides a filtering option called `strictFilter` which allows you to control whether campaigns with the default Google Ads end date (2037-12-30) should be included in the results.
 
-- `strictFilter: true` (default): Campaigns with the default end date will be excluded from the results.
-- `strictFilter: false`: All campaigns within the specified date range will be included in the results.
+
+- `strictFilter: false` (default): All campaigns within the specified date range will be included in the results.
+- `strictFilter: true`  Campaigns with the default end date will be excluded from the results.
 
 To use the `strictFilter` option, open `retrieveFunc.js` and locate the `app()` function. Set the `strictFilter` variable to `true` or `false` based on your preference.
 
