@@ -37,7 +37,7 @@ These instructions will help you set up and run the Google Ads Campaign Cost Ret
 
 ## Usage
 
-1. Open `retrieveFunc.js` and replace the placeholder values in the `app()` function with your desired parameters.
+1. Open `app.js` and replace the placeholder values in with your desired parameters.
 2. Run the application: `npm start`.
 3. The retrieved campaign id/label/cost data will be displayed in the console.
 
@@ -49,7 +49,7 @@ The Google Ads Campaign Cost Retriever provides a filtering option called `stric
 - `strictFilter: false` (default): All campaigns within the specified date range will be included in the results.
 - `strictFilter: true`  Campaigns with the default end date will be excluded from the results.
 
-To use the `strictFilter` option, open `retrieveFunc.js` and locate the `app()` function. Set the `strictFilter` variable to `true` or `false` based on your preference.
+To use the `strictFilter` option, open `app.js` and set the `strictFilter` variable to `true` or `false` based on your preference.
 
 ## Contributing
 
